@@ -1,5 +1,5 @@
 {
-  "name": "when.js",
+  "name": "@playerdecuple/when",
   "version": "1.0.0",
   "description": "Let's use Kotlin's 'when' keyword in Javascript.",
   "main": "dist/index.js",
