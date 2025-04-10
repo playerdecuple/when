@@ -1,6 +1,6 @@
 {
   "name": "@playerdecuple/when",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Let's use Kotlin's 'when' keyword in Javascript.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
   "author": "playerdecuple <me@dekiyu.xyz>",
