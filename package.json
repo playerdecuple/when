@@ -1,0 +1,19 @@
+{
+  "name": "when.js",
+  "version": "1.0.0",
+  "description": "Let's use Kotlin's 'when' keyword in Javascript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "author": "playerdecuple <me@dekiyu.xyz>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
